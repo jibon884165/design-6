@@ -1,0 +1,104 @@
+section.section-padding {padding: 80px;}
+
+.section-content {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    color: black;
+}
+
+.section-content h2 span {
+    color: #2fa553;
+}
+.row {
+    position: absolute;
+    left: 155px;
+    width: 1050px;
+    
+	font-size: 15px;
+}
+
+
+img {
+    position: relative;
+    width: 118px;
+    margin-bottom: -12px;
+}
+
+.pricing-box li {
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+.single-pricing-box-1 {
+    border: 1px solid #c1c1c1;
+    padding: 10;
+    width: 224px;
+    text-align: center;
+}
+.single-pricing-box-2 {
+    position: absolute;
+    left: 260px;
+    top:0;
+    border: 1px solid #c1c1c1;
+    width: 224px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.single-pricing-box-3 {
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    border: 1px solid #c1c1c1;
+    width: 224px;
+    padding: 10px;
+    text-align: center;
+}
+.single-pricing-box-4 {
+    position: absolute;
+    left: 780px;
+    top: 0px;
+    border: 1px solid #c1c1c1;
+    width: 224px;
+    padding: 10px;
+    text-align: center;
+}
+a.bordered-brn {
+    display: inline-block;
+    border: 1px solid #2fa579;
+    color: #1f1f1f;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 6px;
+    text-decoration: none;
+}
+.pricing-box {
+    text-transform: uppercase;
+}
+.single-pricing-box-2:hover {
+    border: 2px solid #2fa553;
+	box-shadow: 0 0 30px #ccc;
+
+	
+}
+.single-pricing-box-3:hover {
+    border: 2px solid #2fa553;
+    box-shadow: 0 0 30px #ccc;
+
+}
+.single-pricing-box-4:hover {
+    border: 2px solid #2fa553;
+    box-shadow: 0 0 30px #ccc;
+
+}
+.single-pricing-box-1:hover {
+    border: 2px solid #2fa553;
+   box-shadow: 0 0 30px #ccc;
+}
+a.bordered-brn:hover {
+    background: #2fa579;
+}
